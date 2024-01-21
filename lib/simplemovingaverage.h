@@ -1,5 +1,7 @@
 #include <vector>
 #include <algorithm>
+#include <cassert>
+#include <stdexcept>
 
 namespace SMA {
 	static double computeFirstAverage(const std::vector<double> &arr, unsigned k);
